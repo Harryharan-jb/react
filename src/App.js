@@ -12,7 +12,7 @@ function App() {
     setTerm(e.target.value)
    }
   return (
-    <div className="container">
+    <div className="container H">
       <div className="head">
         <label htmlFor='term'>
           Guess the number between 1 to 10 
