@@ -5,8 +5,7 @@ import Result from './Result';
 
 const secretNum = Math.floor(Math.random() *10) + 1;
 
-
-function App() {
+function App() { 
    const[term,setTerm]=useState("")
 
    const handleChange = (e) => {
